@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="appointmateversion4" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Aisha\\Desktop\\ICT333\\1\.8\.5\\Interface\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Aisha\\Desktop\\ICT333\\1\.8\.5\\Interface\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="database-tmdConnectionString-Web.config Connection String" description="" value="Data Source=ict333server.database.windows.net;Initial Catalog=database-tmd;Persist Security Info=True;User ID=ondopher;Password=Murdoch2016" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aisha\\Desktop\\ICT333\\1\.8\.5\\Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='database-tmdConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=ict333server.database.windows.net;Initial Catalog=database-tmd;User ID=ondopher;Password=Murdoch2016" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aisha\\Desktop\\ICT333\\1\.8\.5\\Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Appointmate-2016-3-26-9-1ConnectionString-Web.config Connection String" description="Appointmate-2016-3-26-9-1ConnectionString Connection String used in web.config by the application to access the database." value="Data Source=hcr2vhc6gd.database.windows.net;Initial Catalog=Appointmate-2016-3-26-9-1;User ID=ca;Password=Saqlain123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Aisha\\Desktop\\ICT333\\1\.8\.5\\Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Appointmate-2016-3-26-9-1ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

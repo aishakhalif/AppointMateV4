@@ -1,0 +1,515 @@
+﻿font
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(images/header_bg.gif) top repeat-x;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+li.bg, .bg {
+    clear: both;
+    padding: 0;
+    margin: 10px 0;
+    height: 1px;
+    border-bottom: 1px dashed #a1a1a1;
+    list-style: none;
+}
+
+p.clr, .clr {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 0;
+}
+.header_resize {
+    margin: 0 auto;
+    padding: 0;
+    width: 910px;
+}
+
+.header {
+    background: url(heder_resize_bg.jpg) top center no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+    .header h2.bigtext {
+        margin: 0;
+        padding: 40px 0 0;
+        font: normal 45px/1.2em Georgia, "Times New Roman", Times, serif;
+        color: #6d6d6d;
+        letter-spacing: -2px;
+    }
+
+        .header h2.bigtext span {
+            color: #25BAE4;
+        }
+/* logo */
+.logo {
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+}
+
+.logo_text {
+    width: auto;
+    float: right;
+    margin: 0;
+    padding: 30px 30px 0 0;
+    font: normal 13px Georgia, "Times New Roman", Times, serif;
+    color: #fff;
+}
+
+    .logo_text a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0 2px;
+    }
+
+h1 {
+    margin: 0;
+    padding: 30px 0;
+    color: #fff;
+    font: normal 45px/1.2em Georgia, "Times New Roman", Times, serif;
+    letter-spacing: -2px;
+}
+
+    h1 a, h1 a:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    h1 span {
+        font-weight: bold;
+        color: #25BAE4;
+    }
+
+    h1 small {
+        font: normal 16px/1.2em Georgia, "Times New Roman", Times, serif;
+        letter-spacing: normal;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font: normal 25px "Times New Roman", Times, serif;
+        color: #575656;
+    }
+
+
+.menu {
+    padding: 0;
+    margin: 0;
+    width: 935px;
+    float: left;
+    margin-top: 200px;
+}
+
+    .menu ul {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    width: 1019px;
+}
+
+        .menu ul li {
+            border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    float: left;
+            margin: 0;
+            padding: 0;
+            width: 199px;
+}
+
+            .menu ul li a {
+                float: left;
+                margin: 0;
+                padding: 15px 14px;
+                color: #6a6a6a;
+                font: bold 15px "Times New Roman", Times, serif;
+                text-decoration: none;
+    width: 157px;
+}
+
+                .menu ul li a:hover {
+                    color: #fff;
+                    background: #25BAE4;
+                }
+
+                .menu ul li a.active {
+                    color: #fff;
+                    background: #25BAE4;
+                }
+
+/* headert_text_resize */
+.headert_text_resize {
+    width: 932px;
+    padding: 0;
+    margin: 0 auto;
+    background: none;
+}
+
+    .headert_text_resize img {
+        float: left;
+        margin: 0;
+        padding: 25px 0 0 0;
+    }
+
+.body_resize {
+    margin: 0 auto;
+    padding: 5px 0 0 0;
+    width: 910px;
+    height: 100%;
+}
+
+.body {
+    margin: 0;
+    padding: 5px 25px 40px 25px;
+    background: #fff url(images/body_bg.gif) top repeat-x;
+    border-top: 2px solid #fff;
+}
+
+    .body h2 {
+        font: normal 25px "Times New Roman", Times, serif;
+        color: #575656;
+        padding: 0;
+        margin: 0;
+    }
+
+    .body p {
+        font: normal 19px "Times New Roman", Times, serif;
+        color: #575656;
+        padding: 0;
+        margin: 0;
+        line-height: 1.6em;
+    }
+
+        .body p span {
+            font: bold 14px "Times New Roman", Times, serif;
+            color: #6abf79;
+        }
+
+    .body img {
+        margin: 5px 0;
+        padding: 0;
+    }
+
+        .body img.floated {
+            float: left;
+            margin: 10px;
+            padding: 0;
+        }
+
+    .body a {
+        color: #69bacb;
+        text-decoration: none;
+    }
+
+.left {
+    float: right;
+    width: 625px;
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+}
+
+.right {
+    float: left;
+    width: 245px;
+    margin: 0;
+    padding: 10px;
+}
+
+    .right .blog {
+        border: 1px solid #dedede;
+        margin: 10px 0;
+        padding: 10px;
+        background: #fff;
+    }
+
+    .right ul {
+        list-style: none;
+        margin: 5px 15px;
+        padding: 0;
+    }
+
+    .right li {
+        font: normal 14px Arial, Helvetica, sans-serif;
+        color: #464646;
+        padding: 5px 0;
+        margin: 3px 0;
+    }
+
+        .right li a {
+            background: url(images/ul_li.gif) left no-repeat;
+            padding: 0 0 0 15px;
+            margin: 0;
+            font: bold 14px "Times New Roman", Times, serif;
+            color: #6abf79;
+            text-decoration: none;
+        }
+
+            .right li a:hover {
+                color: #575656;
+                text-decoration: none;
+            }
+
+    .right ul.sblock {
+        list-style: none;
+        margin: 5px 10px;
+        padding: 0;
+    }
+
+    .right li.sblock {
+        font: normal 12px Arial, Helvetica, sans-serif;
+        color: #585858;
+        padding: 5px 10px;
+    }
+
+        .right li.sblock a {
+            background: url(images/ul_li.gif) left no-repeat;
+            padding: 0 0 0 15px;
+            margin: 0;
+            font: normal 14px "Times New Roman", Times, serif;
+            color: #6abf79;
+            text-decoration: none;
+        }
+
+        .right li.sblock span {
+            color: #6abf79;
+            font: bold 14px "Times New Roman", Times, serif;
+        }
+
+
+
+.footer {
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+    border-top: 1px dashed #a1a1a1;
+    text-align: center;
+}
+
+    .footer p {
+        color: #585858;
+        font: normal 12px Arial, Helvetica, sans-serif;
+        padding: 15px 5px;
+        margin: 0;
+        line-height: 1.8em;
+    }
+
+    .footer a {
+        color: #585858;
+        text-decoration: none;
+    }
+
+#contactform {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+    #contactform * {
+        color: #F00;
+    }
+
+    #contactform ol {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+
+p.response {
+    text-align: center;
+    color: #F00;
+    font: normal 11px Georgia, "Times New Roman", Times, serif;
+    line-height: 1.8em;
+    width: auto;
+}
+
+.submit {
+    padding: 2px 2px;
+    float: left;
+    margin-right: 11px;
+}
+
+    .submit input[type="submit"] {
+        background: #F06B37;
+        border: none;
+        outline: none;
+        padding: 0.55em 1.3em 0.6em;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        color: #FFF;
+        font-size: 0.9em;
+        border-radius: 1.3em;
+        -webkit-border-radius: 1.3em;
+        -moz-border-radius: 1.3em;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        font-weight: 600;
+    }
+
+        .submit input[type="submit"]:hover {
+            background: #62A0C4;
+        }
+
+
+
+.calendarWrapper {
+    background-color: white;
+    padding: 11px;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.myCalendar {
+    background-color: #f2f2f2;
+    border-left-style: none !important;
+    border-left-color: inherit !important;
+    border-left-width: medium;
+    border-right-style: none !important;
+    border-right-color: inherit !important;
+    border-right-width: medium;
+    border-top-style: none !important;
+    border-top-color: inherit !important;
+    border-top-width: medium;
+    border-bottom-style: none !important;
+    border-bottom-color: inherit !important;
+    border-bottom-width: medium;
+}
+
+    .myCalendar a {
+        text-decoration: none;
+    }
+
+    .myCalendar .myCalendarTitle {
+        font-weight: bold;
+        height: 40px;
+        line-height: 40px;
+        background-color: #4CCAEF;
+        color: #ffffff;
+        border: none !important;
+    }
+
+    .myCalendar th.myCalendarDayHeader {
+        height: 25px;
+    }
+
+    .myCalendar tr {
+        border-bottom: solid 1px #ddd;
+    }
+
+    .myCalendar table tr {
+        border-bottom: none !important;
+    }
+
+    .myCalendar tr:last-child td {
+        border-bottom: none;
+    }
+
+    .myCalendar tr td.myCalendarDay, .myCalendar tr th.myCalendarDayHeader {
+        border-right: solid 1px #ddd;
+    }
+
+    .myCalendar tr td:last-child.myCalendarDay, .myCalendar tr th:last-child.myCalendarDayHeader {
+        border-right: none;
+    }
+
+    .myCalendar td.myCalendarDay:nth-child(7) a {
+        color: #c52e2e !important;
+    }
+
+    .myCalendar .myCalendarNextPrev {
+        text-align: center;
+    }
+
+        .myCalendar .myCalendarNextPrev a {
+            font-size: 1px;
+        }
+
+        .myCalendar .myCalendarNextPrev:nth-child(1) a {
+            color: #4CCAEF !important;
+            background: url("prevMonth.png") no-repeat center center;
+        }
+
+            .myCalendar .myCalendarNextPrev:nth-child(1) a:hover, .myCalendar .myCalendarNextPrev:nth-child(3) a:hover {
+                background-color: #000;
+            }
+
+        .myCalendar .myCalendarNextPrev:nth-child(3) a {
+            color: #000;
+            
+        }
+
+    .myCalendar td.myCalendarSelector a {
+        background-color: #25bae5;
+    }
+
+    .myCalendar .myCalendarDayHeader a,
+    .myCalendar .myCalendarDay a,
+    .myCalendar .myCalendarSelector a,
+    .myCalendar .myCalendarNextPrev a {
+        display: block;
+        line-height: 20px;
+    }
+
+    .myCalendar .myCalendarToday {
+        background-color: #f2f2f2;
+        -webkit-box-shadow: 1px 1px 8px 1px #8f8f8f;
+        box-shadow: 1px 1px 8px 1px #8f8f8f;
+        display: inline-block;
+        width: 22px !important;
+        height: 19px !important;
+        border: 2px solid #f2f2f2;
+        margin-left: -1px;
+        margin-top: -1px;
+        position: relative;
+    }
+
+        .myCalendar .myCalendarToday a {
+            color: #25bae5 !important;
+            font-weight: bold;
+        }
+
+            .myCalendar .myCalendarToday a:after {
+                content: "TODAY";
+                color: #000;
+                font-size: 0.5em;
+                display: inline-block;
+                pointer-events: none;
+                width: 100%;
+                float: left;
+            }
+
+    .myCalendar .myCalendarDay a:hover,
+    .myCalendar .myCalendarSelector a:hover {
+        background-color: #25bae5;
+    }
+
+/* Calendar Page */
+.printDiv{
+    font: normal 25px "Times New Roman", Times, serif;
+    color: #575656;
+
+}

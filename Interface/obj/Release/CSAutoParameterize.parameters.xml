@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-Interface-20160307025848.mdf;Initial Catalog=aspnet-Interface-20160307025848;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mustafa\\Desktop\\2\.0\.0\ \(Final\)\\Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Appointmate-2016-3-26-9-1ConnectionString-Web.config Connection String" description="Appointmate-2016-3-26-9-1ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=hcr2vhc6gd.database.windows.net;Initial Catalog=Appointmate-2016-3-26-9-1;User ID=ca;Password=Saqlain123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mustafa\\Desktop\\2\.0\.0\ \(Final\)\\Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Appointmate-2016-3-26-9-1ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="database-tmdConnectionString-Web.config Connection String" description="database-tmdConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=ict333server.database.windows.net;Initial Catalog=database-tmd;Persist Security Info=True;User ID=ondopher;Password=Murdoch2016" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mustafa\\Desktop\\2\.0\.0\ \(Final\)\\Interface\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='database-tmdConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
